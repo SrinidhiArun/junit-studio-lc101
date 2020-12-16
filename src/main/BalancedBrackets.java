@@ -30,7 +30,7 @@ public class BalancedBrackets {
                 if( brackets > 0) {
                     brackets--;
                 }else{
-                    brackets++;
+                    return false;
                 }
             }
         }
